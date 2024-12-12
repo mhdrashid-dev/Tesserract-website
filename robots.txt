@@ -1,0 +1,16 @@
+# robots.txt for Tesserract Digital Marketing
+
+# Allow all search engines to crawl the site
+User-agent: *
+
+# Disallow search engines from indexing private or non-public files
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /test/
+
+# Allow everything else to be indexed
+Allow: /
+
+# Specify the location of the sitemap
+Sitemap: https://tesserract.com/sitemap.xml
